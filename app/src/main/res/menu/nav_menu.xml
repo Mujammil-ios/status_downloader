@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Select Type">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/itemwhatsapp"
+                    android:icon="@drawable/whatsapp"
+                    android:title="Whatsapp"/>
+
+                <item
+                    android:id="@+id/itembusiness"
+                    android:icon="@drawable/ic_baseline_business_24"
+                    android:title="Whatsapp Business"/>
+
+                <item
+                    android:id="@+id/itemratus"
+                    android:icon="@drawable/ic_baseline_star_rate_24"
+                    android:title="Rate Us"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+
+    <item android:title="Document">
+        <menu>
+            <item
+                android:id="@+id/itemprivacy"
+                android:icon="@drawable/ic_baseline_privacy_tip_24"
+                android:title="Privacy Policy">
+
+
+            </item>
+
+            <item
+                android:id="@+id/itemterms"
+                android:icon="@drawable/ic_baseline_security_24"
+                android:title="Terms and Condition"></item>
+
+        </menu>
+    </item>
+
+</menu>

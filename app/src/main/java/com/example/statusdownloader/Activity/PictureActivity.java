@@ -31,13 +31,6 @@ public class PictureActivity extends AppCompatActivity {
         setContentView(R.layout.activity_picture);
 
 
-
-
-
-
-
-
-
         particularimage = findViewById(R.id.particularimage);
         share = findViewById(R.id.share);
         downloadd = findViewById(R.id.download);
@@ -170,3 +163,37 @@ public class PictureActivity extends AppCompatActivity {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

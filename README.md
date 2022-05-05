@@ -1,6 +1,5 @@
 # status_downloader
 ---------------------
----------------------
 This app contains fetures of to download whatsapp status very easyily way. This app used for personoal use and educational purpose
 
 #Features

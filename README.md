@@ -12,12 +12,12 @@ This app contains fetures of to download whatsapp status very easyily way. This 
 
 #Features
 ---------------------
-~see whatsapp status in app
-~Share whatsapp status
-~Download Whatsapp status
-~Delete status from app
+~see whatsapp status in app <br />
+~Share whatsapp status<br />
+~Download Whatsapp status<br />
+~Delete status from app<br />
 
 #Benefits
 ---------------------
-~Very responsive design and UI
+~Very responsive design and UI<br />
 ~Easy to use

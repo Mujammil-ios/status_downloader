@@ -15,8 +15,9 @@ import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.example.statusdownloader.R;
+//import com.google.firebase.crashlytics.buildtools.reloc.org.apache.commons.io.FileDeleteStrategy;
 
-import org.apache.commons.io.FileDeleteStrategy;
+//import org.apache.commons.io.FileDeleteStrategy;
 
 import java.io.File;
 import java.io.IOException;
@@ -88,7 +89,7 @@ public class VideoActivity extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
+                /*try {
                     FileDeleteStrategy.NORMAL.delete(file1);
                     FileDeleteStrategy.NORMAL.delete(destpath2);
 
@@ -96,7 +97,7 @@ public class VideoActivity extends AppCompatActivity {
                 catch (IOException e)
                 {
                     e.printStackTrace();
-                }
+                }*/
 
                 MediaScannerConnection.scanFile(getApplicationContext(),
                         new String[]{destpath + filename},
@@ -169,31 +170,3 @@ public class VideoActivity extends AppCompatActivity {
         });
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

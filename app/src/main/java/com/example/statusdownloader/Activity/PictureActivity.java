@@ -15,7 +15,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.example.statusdownloader.R;
 
-import org.apache.commons.io.FileDeleteStrategy;
+//import org.apache.commons.io.FileDeleteStrategy;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -71,7 +71,7 @@ public class PictureActivity extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
+                /*try {
                     FileDeleteStrategy.NORMAL.delete(file1);
                     FileDeleteStrategy.NORMAL.delete(destpath2);
 
@@ -79,7 +79,7 @@ public class PictureActivity extends AppCompatActivity {
                 catch (IOException e)
                 {
                     e.printStackTrace();
-                }
+                }*/
 
                 MediaScannerConnection.scanFile(getApplicationContext(),
                         new String[]{destpath + filename},

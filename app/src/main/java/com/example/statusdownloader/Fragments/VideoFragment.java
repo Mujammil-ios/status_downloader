@@ -28,15 +28,9 @@ public class VideoFragment extends Fragment {
 
     VideoAdapter videoAdapter;
     File[] files;
-
     ArrayList<ModelClass> filelist =  new ArrayList<>();
-
     RecyclerView recyclerView;
     SwipeRefreshLayout swipeRefreshLayout;
-
-
-
-
 
     public VideoFragment() {
         // Required empty public constructor
@@ -49,16 +43,11 @@ public class VideoFragment extends Fragment {
         // Inflate the layout for this fragment
 
         View view = inflater.inflate(R.layout.fragment_video, container, false);
-
-
         recyclerView= view.findViewById(R.id.videorecycler);
         swipeRefreshLayout = view.findViewById(R.id.videoswipe);
-
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-
-
                 swipeRefreshLayout.setRefreshing(true);
                 viewdata();
                 {
@@ -72,16 +61,7 @@ public class VideoFragment extends Fragment {
                 }
             }
         });
-
-
-
-
-
-
         return view;
-
-
-
     }
 
     private void viewdata() {
@@ -93,9 +73,6 @@ public class VideoFragment extends Fragment {
         videoAdapter = new VideoAdapter(VideoFragment.this, getData());
         recyclerView.setAdapter(videoAdapter);
         videoAdapter.notifyDataSetChanged();
-
-
-
     }
 
     private ArrayList<ModelClass> getData() {
@@ -114,18 +91,9 @@ public class VideoFragment extends Fragment {
 
                 filelist.add(f);
             }
-
         }
         return filelist;
     }
-
-
-
-
-
-
-
-
 }
 
 

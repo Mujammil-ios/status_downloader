@@ -37,6 +37,7 @@ public class ImageFragment extends Fragment {
 
     public ImageFragment() {
         // Required empty public constructor
+        // Required empty public constructor
     }
 
 
